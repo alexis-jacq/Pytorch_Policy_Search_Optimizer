@@ -21,9 +21,14 @@ action = pso.evaluate(state, direction=0, side="left")
 ```
 (direction = index of explored direction, side = positive or negative perturbation)
 
-### update
+### store obtained reward
 ```
 pso.reward(reward, direction=0, side="left")
+```
+
+### update policy
+```
+pso.update()
 ```
 
 ## Example
