@@ -77,7 +77,6 @@ def train(env,pso, normalizer, hp):
         while not done :
             state, reward, done = run(env, pso, normalizer, state)
             reward_evaluation += reward
-        #env.stats_recorder.done = True
 
         # finish, print:
         print('episode',episode,'reward_evaluation',reward_evaluation)
