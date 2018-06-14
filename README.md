@@ -22,7 +22,9 @@ action = pso.evaluate(state, direction=0, side="left")
 (direction = index of explored direction, side = positive or negative perturbation)
 
 ### update
+```
 pso.reward(reward, direction=0, side="left")
+```
 
 ## Example
 See example.py for a suggestion of augmented random search implementation.
